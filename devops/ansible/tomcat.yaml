@@ -1,0 +1,16 @@
+#!/bin/bash
+#install the java
+# task name: update
+command: yum update -y 
+# task name: install java 
+command: amazon-linux-extras install epel java-openjdk11 -y 
+# task name: download 
+command: wget url 
+# task name: extract / untar / unarchive / unzip
+shell: unzip 
+
+# task name: rename 
+command: mv 
+# task name :;remove the tar/gz/zip 
+command: rm 
+

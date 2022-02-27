@@ -1,0 +1,16 @@
+playbook:
+  task: module 
+
+  taskname: stop 
+  command: /opt/tomcat/bin/shutdown.sh 
+
+  taskname: wait for 5 secs 
+  command: sleep 5 
+
+  taskname: start tomcat 
+  command: /opt/tomcat/bin/startup.sh 
+
+  ansible-playbook restartTomcat.yaml -h inventory 
+
+  static invetntory and dynamic inventory 
+  

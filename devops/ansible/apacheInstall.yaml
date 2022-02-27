@@ -1,0 +1,13 @@
+taskname: update 
+package: yum 
+stage: update 
+
+
+taskname:; install the apache 
+package: yum 
+name: httpd 
+state : install 
+
+or 
+
+command: yum install httpd -y 
